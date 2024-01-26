@@ -47,12 +47,16 @@
 //
 // Limit Switches
 //
-#define X_MIN_PIN                             43
+#define X_MIN_PIN                             52 
 #define X_MAX_PIN                             42
-#define Y_MIN_PIN                             38
-#define Y_MAX_PIN                             41
-#define Z_MIN_PIN                             40
+#define Y_MIN_PIN                             53 
+#define Y_MAX_PIN                             43
+#define Z_MIN_PIN                             50 
 #define Z_MAX_PIN                             37
+#define A_MIN_PIN                             52 
+#define A_MAX_PIN                             42
+#define B_MIN_PIN                             53 
+#define B_MAX_PIN                             43
 
 //
 // Z Probe (when not Z_MIN_PIN)
@@ -64,17 +68,17 @@
 //
 // Steppers
 //
-#define X_STEP_PIN                            62  // A8
-#define X_DIR_PIN                             63  // A9
-#define X_ENABLE_PIN                          61  // A7
+#define X_STEP_PIN                            4  
+#define X_DIR_PIN                             3  
+#define X_ENABLE_PIN                          2 
 
-#define Y_STEP_PIN                            65  // A11
-#define Y_DIR_PIN                             66  // A12
-#define Y_ENABLE_PIN                          64  // A10
+#define Y_STEP_PIN                            7  
+#define Y_DIR_PIN                             6  
+#define Y_ENABLE_PIN                          5  
 
-#define Z_STEP_PIN                            68  // A14
-#define Z_DIR_PIN                             69  // A15
-#define Z_ENABLE_PIN                          67  // A13
+#define Z_STEP_PIN                            10  
+#define Z_DIR_PIN                             9 
+#define Z_ENABLE_PIN                          8
 
 #define E0_STEP_PIN                           23
 #define E0_DIR_PIN                            24
